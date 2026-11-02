@@ -2,55 +2,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prof. Sujit Manna | IIT Delhi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Prof. Sujit Manna | IIT Delhi</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #263445;
+    background: #ffffff;
+    line-height: 1.7;
+}
+
+header {
+    background: #102b46;
+    color: white;
+    padding: 22px 8%;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    color: #cbd9e6;
+}
+
+nav {
+    background: white;
+    padding: 17px 8%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    border-bottom: 1px solid #e5eaf0;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #173b5c;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1686b8;
+}
+
+.hero {
+    background: #edf4f9;
+    padding: 90px 8%;
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: #102b46;
+    max-width: 750px;
+    line-height: 1.2;
+    margin-bottom: 22px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+}
+
+section {
+    padding: 65px 8%;
+}
+
+section h2 {
+    color: #102b46;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+    margin-top: 25px;
+}
+
+.card {
+    padding: 25px;
+    background: #f3f7fa;
+    border-radius: 10px;
+    border: 1px solid #e2eaf0;
+}
+
+.card h3 {
+    color: #17466c;
+    margin-bottom: 12px;
+}
+
+.alt {
+    background: #f5f8fb;
+}
+
+footer {
+    background: #102b46;
+    color: white;
+    padding: 30px 8%;
+    text-align: center;
+}
+
+footer p {
+    color: #cbd9e6;
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+}
+</style>
 </head>
+
 <body>
 
+<header>
     <h1>Prof. Sujit Manna</h1>
-    <h2>Indian Institute of Technology Delhi</h2>
+    <p>Indian Institute of Technology Delhi</p>
+</header>
 
-    <nav>
-        <a href="#home">Home</a> |
-        <a href="#team">Team</a> |
-        <a href="#vacancies">Vacancies</a> |
-        <a href="#publications">Publications</a> |
-        <a href="#research">Research</a> |
-        <a href="#teaching">Teaching</a>
-    </nav>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#team">Team</a>
+    <a href="#vacancies">Vacancies</a>
+    <a href="#publications">Publications</a>
+    <a href="#research">Research</a>
+    <a href="#teaching">Teaching</a>
+</nav>
 
-    <hr>
+<div class="hero" id="home">
+    <h2>Welcome to Our Research Group</h2>
+    <p>
+        Welcome to the research group of Prof. Sujit Manna
+        at the Indian Institute of Technology Delhi.
+        Discover our research, team, publications and
+        academic activities.
+    </p>
+</div>
 
-    <section id="home">
-        <h2>Welcome to Our Research Group</h2>
-        <p>Welcome to the research group of Prof. Sujit Manna at IIT Delhi.</p>
-    </section>
+<section id="research">
+    <h2>Research</h2>
+    <p>Explore our research activities and scientific interests.</p>
 
-    <section id="team">
-        <h2>Team</h2>
-        <p>Meet our research group members.</p>
-    </section>
+    <div class="cards">
+        <div class="card">
+            <h3>Research Area 01</h3>
+            <p>Add a description of the first research theme.</p>
+        </div>
 
-    <section id="vacancies">
-        <h2>Vacancies</h2>
-        <p>Information about available research positions.</p>
-    </section>
+        <div class="card">
+            <h3>Research Area 02</h3>
+            <p>Add a description of the second research theme.</p>
+        </div>
 
-    <section id="publications">
-        <h2>Publications</h2>
-        <p>Explore our research publications.</p>
-    </section>
+        <div class="card">
+            <h3>Research Area 03</h3>
+            <p>Add a description of the third research theme.</p>
+        </div>
+    </div>
+</section>
 
-    <section id="research">
-        <h2>Research</h2>
-        <p>Explore our research activities.</p>
-    </section>
+<section class="alt" id="team">
+    <h2>Our Team</h2>
+    <p>Meet our faculty, research scholars and students.</p>
+</section>
 
-    <section id="teaching">
-        <h2>Teaching</h2>
-        <p>Courses and academic activities.</p>
-    </section>
+<section id="vacancies">
+    <h2>Vacancies</h2>
+    <p>Information about research opportunities and available positions.</p>
+</section>
+
+<section class="alt" id="publications">
+    <h2>Publications</h2>
+    <p>Explore our research papers and scientific publications.</p>
+</section>
+
+<section id="teaching">
+    <h2>Teaching</h2>
+    <p>Information about courses, lectures and academic activities.</p>
+</section>
+
+<footer>
+    <h3>Prof. Sujit Manna</h3>
+    <p>Indian Institute of Technology Delhi</p>
+    <p>Research Group Website</p>
+</footer>
 
 </body>
 </html>
