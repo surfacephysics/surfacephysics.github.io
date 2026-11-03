@@ -1,21 +1,24 @@
-PROF. SUJIT MANNA — WEBSITE UPDATE
+TEAM PAGE UPDATE WITH PHOTOGRAPHS
 
-Package contents:
-7 separate HTML pages, shared style.css, and sujit-manna.jpg.
+Upload the following files together into the ROOT of your GitHub repository:
+- team.html
+- sujit-manna.jpg
+- devdutt.jpg
+- nazma.jpg
+- saurav.jpg
+- tarana.jpg
+- indraneel.jpg
+- shreyashi.jpg
+- subham.jpg
 
-HOW TO UPDATE YOUR GITHUB PAGES WEBSITE
-1. Download and unzip this package on your computer.
+Steps:
+1. Unzip this package.
 2. Open https://github.com/surfacephysics/surfacephysics.github.io
 3. Choose Add file > Upload files.
-4. Upload all files from this folder into the repository's main/root folder.
-5. Confirm replacing existing files when GitHub asks.
-6. Scroll down and choose Commit changes.
-7. Wait a few minutes, then open https://surfacephysics.github.io/ and refresh.
-   If needed, force-refresh: Ctrl+F5 (Windows) or Cmd+Shift+R (Mac).
+4. Upload all files listed above into the repository root (same folder as index.html).
+5. Confirm replacement of team.html and sujit-manna.jpg if prompted.
+6. Commit changes.
+7. Visit https://surfacephysics.github.io/team.html and force-refresh with Ctrl+Shift+R.
 
-IMPORTANT
-- Keep all HTML files, style.css and sujit-manna.jpg together in the repository root.
-- Navigation order is HOME, TEAM, RESEARCH, PUBLICATIONS, TEACHING, VACANCIES, CONTACT.
-- Every navigation item opens its own separate page.
-- Sample content remains on some pages; replace it with verified current information before publishing.
-- Confirm the photograph is approved for public use before publishing.
+The existing style.css remains in use and does not need to be replaced.
+Members for whom no photograph was supplied are shown with initials instead.

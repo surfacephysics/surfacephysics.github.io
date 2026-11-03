@@ -3,17 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Current members and alumni of Prof. Sujit Manna's research group at IIT Delhi.">
+<meta name="description" content="Meet the members and alumni of Prof. Sujit Manna's research group at IIT Delhi.">
 <title>Team | Prof. Sujit Manna · IIT Delhi</title>
 <link rel="stylesheet" href="style.css">
 <style>
-.team-section{margin-top:42px}.team-section h2{margin-top:0;margin-bottom:8px}
-.team-section .section-intro{margin-bottom:20px}
-.member-card{min-height:132px}.member-card h3{margin-bottom:7px}
-.member-role{color:#40566c!important;font-weight:650;margin-bottom:3px!important}
-.member-date{color:#718196!important;font-size:.9rem}
-.pi-photo{width:150px;aspect-ratio:3/4;object-fit:cover;object-position:top center;border-radius:12px}
-@media(max-width:760px){.member-card{min-height:auto}}
+.team-section{margin-top:46px}
+.team-section h2{margin:0 0 8px}
+.team-section .section-intro{margin:0 0 20px;color:#647487}
+.member-card{padding:0;overflow:hidden;min-height:100%;display:flex;flex-direction:column}
+.member-photo,.member-placeholder{display:block;width:100%;height:210px;object-fit:cover;object-position:center 25%;background:#eaf2f7}
+.member-placeholder{display:grid;place-items:center;color:#1d5d87;font-size:2.3rem;font-weight:800;letter-spacing:.04em}
+.member-info{padding:17px 19px 19px}
+.member-info h3{margin:0 0 6px}
+.member-role{color:#40566c!important;font-weight:650;margin:0 0 3px!important}
+.member-date{color:#718196!important;font-size:.88rem;margin:0!important}
+.pi-card{display:grid;grid-template-columns:190px 1fr;gap:25px;align-items:center}
+.pi-photo{width:100%;height:240px;object-fit:cover;object-position:center top;border-radius:12px}
+.pi-card p{color:#536579}
+.team-note{margin-top:14px;color:#647487;font-size:.9rem}
+@media(max-width:760px){.member-photo,.member-placeholder{height:190px}.pi-card{grid-template-columns:1fr}.pi-photo{max-width:190px}}
 </style>
 </head>
 <body>
@@ -28,35 +36,199 @@
 </nav></div></div>
 <main>
 <div class="page-heading"><div class="eyebrow">People · Research Group</div><h1>Our Team</h1>
-<p class="lead">Meet the principal investigator, research scholars, students and former members of the group.</p></div>
-<section class="team-section" aria-labelledby="pi-heading"><h2 id="pi-heading">Principal Investigator</h2>
-<div class="card profile-card"><img class="pi-photo" src="sujit-manna.jpg" alt="Portrait of Prof. Sujit Manna">
+<p class="lead">Meet the principal investigator, doctoral researchers, students and former members of the group.</p></div>
+
+<section class="team-section" aria-labelledby="pi-heading">
+<h2 id="pi-heading">Principal Investigator</h2>
+<div class="card pi-card">
+<img class="pi-photo" src="sujit-manna.jpg" alt="Portrait of Prof. Sujit Manna">
 <div><h3>Prof. Sujit Manna</h3><p class="member-role">Principal Investigator · Department of Physics, IIT Delhi</p>
-<p>Prof. Sujit Manna leads the research group at the Department of Physics, Indian Institute of Technology Delhi.</p></div></div></section>
-<section class="team-section" aria-labelledby="phd-heading"><h2 id="phd-heading">PhD Scholars</h2>
-<p class="section-intro">Current doctoral researchers in the group.</p><div class="grid"><article class="card member-card"><h3>Saurav Sachin</h3><p class="member-role">PhD Student</p><p class="member-date">Joined: January 2022</p></article>
-<article class="card member-card"><h3>Nazma Firdosh</h3><p class="member-role">PhD Student</p><p class="member-date">Joined: January 2022</p></article>
-<article class="card member-card"><h3>Devdutt Arya</h3><p class="member-role">PhD Student</p><p class="member-date">Joined: July 2025</p></article>
-<article class="card member-card"><h3>Tarana</h3><p class="member-role">PhD Student</p><p class="member-date">Joined: July 2026</p></article></div></section>
-<section class="team-section" aria-labelledby="students-heading"><h2 id="students-heading">Project Students / Interns</h2>
-<p class="section-intro">Students who joined the group in July 2026.</p><div class="grid"><article class="card member-card"><h3>Neeraj Kumar</h3><p class="member-role">M.Sc. Student</p><p class="member-date">Joined: July 2026</p></article>
-<article class="card member-card"><h3>Saket Kumar</h3><p class="member-role">M.Sc. Student</p><p class="member-date">Joined: July 2026</p></article></div></section>
-<section class="team-section" aria-labelledby="alumni-heading"><h2 id="alumni-heading">Alumni &amp; Former Group Members</h2>
-<p class="section-intro">Former members, with their roles and joining dates as provided.</p><div class="grid"><article class="card member-card"><h3>Indraneel Sinha</h3><p class="member-role">PhD Student</p><p class="member-date">Joined: July 2019</p></article>
-<article class="card member-card"><h3>Shreyashi Sinha</h3><p class="member-role">PhD Student</p><p class="member-date">Joined: September 2020</p></article>
-<article class="card member-card"><h3>Subham Naskar</h3><p class="member-role">PhD Student</p><p class="member-date">Joined: September 2020</p></article>
-<article class="card member-card"><h3>Sumit</h3><p class="member-role">M.Tech</p><p class="member-date">Joined: July 2019</p></article>
-<article class="card member-card"><h3>Amit Kumar</h3><p class="member-role">M.Tech</p><p class="member-date">Joined: July 2020</p></article>
-<article class="card member-card"><h3>Dishi Gangwar</h3><p class="member-role">M.Tech</p><p class="member-date">Joined: July 2021</p></article>
-<article class="card member-card"><h3>Kashish Garg</h3><p class="member-role">M.Sc.</p><p class="member-date">Joined: July 2021</p></article>
-<article class="card member-card"><h3>Pranshi Verma</h3><p class="member-role">M.Tech</p><p class="member-date">Joined: July 2022</p></article>
-<article class="card member-card"><h3>Amod Kumar</h3><p class="member-role">M.Tech</p><p class="member-date">Joined: July 2022</p></article>
-<article class="card member-card"><h3>Bipasha</h3><p class="member-role">M.Sc.</p><p class="member-date">Joined: July 2022</p></article>
-<article class="card member-card"><h3>Hardik Vaibhav</h3><p class="member-role">M.Sc.</p><p class="member-date">Joined: July 2022</p></article>
-<article class="card member-card"><h3>Komal</h3><p class="member-role">M.Tech</p><p class="member-date">Joined: July 2025</p></article>
-<article class="card member-card"><h3>Debtosh Sahoo</h3><p class="member-role">M.Sc.</p><p class="member-date">Joined: July 2025</p></article>
-<article class="card member-card"><h3>Vipin Nagpal</h3><p class="member-role">Postdoctoral Researcher</p><p class="member-date">Joined: January 2026</p></article>
-<article class="card member-card"><h3>Japneet Kaur</h3><p class="member-role">Project Intern</p><p class="member-date">Joined: July 2024</p></article></div></section>
+<p>Prof. Sujit Manna leads the research group at the Department of Physics, Indian Institute of Technology Delhi.</p></div>
+</div>
+</section>
+
+<section class="team-section" aria-labelledby="phd-heading">
+<h2 id="phd-heading">PhD Scholars</h2><p class="section-intro">Current doctoral researchers in the group.</p>
+<div class="grid"><article class="card member-card">
+      <img class="member-photo" src="saurav.jpg" alt="Photograph of Saurav Sachin" loading="lazy">
+      <div class="member-info">
+        <h3>Saurav Sachin</h3>
+        <p class="member-role">PhD Student</p>
+        <p class="member-date">Joined: January 2022</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <img class="member-photo" src="nazma.jpg" alt="Photograph of Nazma Firdosh" loading="lazy">
+      <div class="member-info">
+        <h3>Nazma Firdosh</h3>
+        <p class="member-role">PhD Student</p>
+        <p class="member-date">Joined: January 2022</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <img class="member-photo" src="devdutt.jpg" alt="Photograph of Devdutt Arya" loading="lazy">
+      <div class="member-info">
+        <h3>Devdutt Arya</h3>
+        <p class="member-role">PhD Student</p>
+        <p class="member-date">Joined: July 2025</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <img class="member-photo" src="tarana.jpg" alt="Photograph of Tarana" loading="lazy">
+      <div class="member-info">
+        <h3>Tarana</h3>
+        <p class="member-role">PhD Student</p>
+        <p class="member-date">Joined: July 2026</p>
+      </div>
+    </article></div>
+</section>
+
+<section class="team-section" aria-labelledby="students-heading">
+<h2 id="students-heading">Project Students / Interns</h2><p class="section-intro">M.Sc. students who joined in July 2026.</p>
+<div class="grid"><article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">NK</div>
+      <div class="member-info">
+        <h3>Neeraj Kumar</h3>
+        <p class="member-role">M.Sc. Student</p>
+        <p class="member-date">Joined: July 2026</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">SK</div>
+      <div class="member-info">
+        <h3>Saket Kumar</h3>
+        <p class="member-role">M.Sc. Student</p>
+        <p class="member-date">Joined: July 2026</p>
+      </div>
+    </article></div>
+</section>
+
+<section class="team-section" aria-labelledby="alumni-heading">
+<h2 id="alumni-heading">Alumni &amp; Former Group Members</h2><p class="section-intro">Former group members, with roles and joining dates as provided.</p>
+<div class="grid"><article class="card member-card">
+      <img class="member-photo" src="indraneel.jpg" alt="Photograph of Indraneel Sinha" loading="lazy">
+      <div class="member-info">
+        <h3>Indraneel Sinha</h3>
+        <p class="member-role">PhD Student</p>
+        <p class="member-date">Joined: July 2019</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <img class="member-photo" src="shreyashi.jpg" alt="Photograph of Shreyashi Sinha" loading="lazy">
+      <div class="member-info">
+        <h3>Shreyashi Sinha</h3>
+        <p class="member-role">PhD Student</p>
+        <p class="member-date">Joined: September 2020</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <img class="member-photo" src="subham.jpg" alt="Photograph of Subham Naskar" loading="lazy">
+      <div class="member-info">
+        <h3>Subham Naskar</h3>
+        <p class="member-role">PhD Student</p>
+        <p class="member-date">Joined: September 2020</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">S</div>
+      <div class="member-info">
+        <h3>Sumit</h3>
+        <p class="member-role">M.Tech</p>
+        <p class="member-date">Joined: July 2019</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">AK</div>
+      <div class="member-info">
+        <h3>Amit Kumar</h3>
+        <p class="member-role">M.Tech</p>
+        <p class="member-date">Joined: July 2020</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">DG</div>
+      <div class="member-info">
+        <h3>Dishi Gangwar</h3>
+        <p class="member-role">M.Tech</p>
+        <p class="member-date">Joined: July 2021</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">KG</div>
+      <div class="member-info">
+        <h3>Kashish Garg</h3>
+        <p class="member-role">M.Sc.</p>
+        <p class="member-date">Joined: July 2021</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">PV</div>
+      <div class="member-info">
+        <h3>Pranshi Verma</h3>
+        <p class="member-role">M.Tech</p>
+        <p class="member-date">Joined: July 2022</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">AK</div>
+      <div class="member-info">
+        <h3>Amod Kumar</h3>
+        <p class="member-role">M.Tech</p>
+        <p class="member-date">Joined: July 2022</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">B</div>
+      <div class="member-info">
+        <h3>Bipasha</h3>
+        <p class="member-role">M.Sc.</p>
+        <p class="member-date">Joined: July 2022</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">HV</div>
+      <div class="member-info">
+        <h3>Hardik Vaibhav</h3>
+        <p class="member-role">M.Sc.</p>
+        <p class="member-date">Joined: July 2022</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">K</div>
+      <div class="member-info">
+        <h3>Komal</h3>
+        <p class="member-role">M.Tech</p>
+        <p class="member-date">Joined: July 2025</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">DS</div>
+      <div class="member-info">
+        <h3>Debtosh Sahoo</h3>
+        <p class="member-role">M.Sc.</p>
+        <p class="member-date">Joined: July 2025</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">VN</div>
+      <div class="member-info">
+        <h3>Vipin Nagpal</h3>
+        <p class="member-role">Postdoctoral Researcher</p>
+        <p class="member-date">Joined: January 2026</p>
+      </div>
+    </article>
+<article class="card member-card">
+      <div class="member-placeholder" aria-hidden="true">JK</div>
+      <div class="member-info">
+        <h3>Japneet Kaur</h3>
+        <p class="member-role">Project Intern</p>
+        <p class="member-date">Joined: July 2024</p>
+      </div>
+    </article></div>
+</section>
+<p class="team-note">Photographs are shown for members where an image has been provided. Additional member photographs can be added later.</p>
 </main>
-<footer class="site-footer"><div class="footer-inner"><p><strong>Prof. Sujit Manna</strong> · Department of Physics · IIT Delhi</p><p>Research group website</p></div></footer>
+<footer class="site-footer"><div class="footer-inner">
+<p><strong>Prof. Sujit Manna</strong> · Department of Physics · IIT Delhi</p><p>Research group website</p>
+</div></footer>
 </body></html>
