@@ -1,24 +1,21 @@
-TEAM PAGE UPDATE WITH PHOTOGRAPHS
+TEAM PAGE — TWO PROFILES PER ROW
 
-Upload the following files together into the ROOT of your GitHub repository:
-- team.html
-- sujit-manna.jpg
-- devdutt.jpg
-- nazma.jpg
-- saurav.jpg
-- tarana.jpg
-- indraneel.jpg
-- shreyashi.jpg
-- subham.jpg
+This update changes only the Team page layout and includes the image files it uses.
 
-Steps:
-1. Unzip this package.
-2. Open https://github.com/surfacephysics/surfacephysics.github.io
-3. Choose Add file > Upload files.
-4. Upload all files listed above into the repository root (same folder as index.html).
-5. Confirm replacement of team.html and sujit-manna.jpg if prompted.
-6. Commit changes.
-7. Visit https://surfacephysics.github.io/team.html and force-refresh with Ctrl+Shift+R.
+Upload ALL files in this folder to the ROOT of your GitHub repository:
+- Replace team.html
+- Upload the eight JPG files (including sujit-manna.jpg)
 
-The existing style.css remains in use and does not need to be replaced.
-Members for whom no photograph was supplied are shown with initials instead.
+Do not replace style.css. The Team page includes its own layout styling and continues
+to use your existing site-wide stylesheet.
+
+Layout:
+- Two member profiles per row on desktop/tablet widths
+- One profile per row on narrow/mobile screens
+- Rectangular photo frames with object-fit: contain, so the complete photograph is
+  visible without cropping
+- Extra vertical room in each profile for future biography, research-interest,
+  position, and link information
+
+After committing, visit https://surfacephysics.github.io/team.html and press
+Ctrl+Shift+R (Windows) or Cmd+Shift+R (Mac).
