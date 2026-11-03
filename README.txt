@@ -1,21 +1,18 @@
-TEAM PAGE — TWO PROFILES PER ROW
+TEAM PAGE — FULL RECTANGULAR PHOTOGRAPHS
 
-This update changes only the Team page layout and includes the image files it uses.
+This version displays every profile photo in a rectangular portrait frame:
+- The image fills the frame (object-fit: cover).
+- No white image mat or circle-shaped photo container is used.
+- Nazma, Saurav and Subham's supplied source files were circular thumbnails;
+  these have been reframed as tight rectangular portrait crops to remove the
+  outer circle and surrounding white/grey area.
+- Other supplied photographs are retained.
+- Two profiles per row on desktop; one per row on mobile.
 
-Upload ALL files in this folder to the ROOT of your GitHub repository:
+Upload all files in this folder into the ROOT of your GitHub repository:
 - Replace team.html
-- Upload the eight JPG files (including sujit-manna.jpg)
+- Upload/replace all eight JPG files
 
-Do not replace style.css. The Team page includes its own layout styling and continues
-to use your existing site-wide stylesheet.
-
-Layout:
-- Two member profiles per row on desktop/tablet widths
-- One profile per row on narrow/mobile screens
-- Rectangular photo frames with object-fit: contain, so the complete photograph is
-  visible without cropping
-- Extra vertical room in each profile for future biography, research-interest,
-  position, and link information
-
-After committing, visit https://surfacephysics.github.io/team.html and press
-Ctrl+Shift+R (Windows) or Cmd+Shift+R (Mac).
+Keep style.css unchanged.
+After committing, visit https://surfacephysics.github.io/team.html and force-refresh
+with Ctrl+Shift+R (Windows) or Cmd+Shift+R (Mac).
