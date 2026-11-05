@@ -32,3 +32,9 @@ p{margin:0 0 14px}.lead{font-size:1.13rem;color:#526579;max-width:760px}
 .profile-card{display:grid;grid-template-columns:150px 1fr;gap:22px;align-items:start}.profile-card img{width:100%;border-radius:12px}
 .site-footer{background:#102b46;color:#ffffffc7;padding:27px 0;font-size:.9rem}.site-footer p{margin:3px 0}.site-footer strong{color:#fff}
 @media(max-width:760px){.hero{grid-template-columns:1fr}.hero-photo-wrap{grid-row:1;width:190px}.grid{grid-template-columns:1fr}.profile-card{grid-template-columns:1fr}.profile-card img{max-width:170px}main{padding-top:30px}nav{gap:2px}nav a{padding:9px 10px;font-size:.88rem}.site-subtitle{margin-left:0}}
+
+
+/* Header title visibility fix */
+header.site-header .header-inner .brand-line .site-title {
+  color: #ffffff !important;
+}
