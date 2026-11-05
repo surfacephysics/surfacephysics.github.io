@@ -6,7 +6,7 @@ a{color:var(--blue);text-decoration:none}a:hover{color:var(--teal)}
 .header-inner,main,.nav-inner,.footer-inner{width:min(1120px,calc(100% - 44px));margin:0 auto}
 .brand-line{display:flex;align-items:center;gap:14px}.brand-mark{width:42px;height:42px;border:1px solid #ffffff70;border-radius:12px;display:grid;place-items:center;font-weight:800;letter-spacing:.04em}
 .site-title{color:#fff;margin:0;font-size:clamp(1.25rem,2.6vw,1.8rem);line-height:1.2;letter-spacing:-.02em}
-.site-subtitle{margin:7px 0 0 56px;color:#ffffffcc;font-size:.94rem}
+.site-subtitle{margin:7px 0 0 0;color:#ffffffcc;font-size:.94rem}
 .nav-wrap{background:#fff;border-bottom:1px solid var(--line);box-shadow:0 3px 12px #102b460a}
 nav{display:flex;flex-wrap:wrap;align-items:center;gap:4px;padding:9px 0}
 nav a{color:#405268;padding:10px 13px;border-radius:8px;font-size:.92rem;font-weight:650}
@@ -38,3 +38,5 @@ p{margin:0 0 14px}.lead{font-size:1.13rem;color:#526579;max-width:760px}
 header.site-header .header-inner .brand-line .site-title {
   color: #ffffff !important;
 }
+
+.site-subtitle { margin-left: 0 !important; }
