@@ -1,0 +1,14 @@
+/* Contact footer: reference-inspired layout, preserving navy/white Arial theme. */
+.site-footer { background:#153653 !important; color:#fff !important; padding:56px 24px 24px !important; border:0 !important; font-family:Arial,Helvetica,sans-serif !important; }
+.site-footer * { box-sizing:border-box; font-family:Arial,Helvetica,sans-serif !important; }
+.site-footer .footer-inner { max-width:1120px; margin:0 auto; }
+.site-footer .footer-heading { display:flex; align-items:flex-end; gap:24px; margin:0 0 28px; }
+.site-footer .footer-heading h2 { color:#fff !important; font-size:2rem; line-height:1.25; font-weight:400; margin:0; white-space:nowrap; }
+.site-footer .footer-rule { display:block; height:2px; flex:1; background:rgba(255,255,255,.9); margin-bottom:5px; }
+.site-footer .footer-affiliation,.site-footer .footer-description { color:#f1f5f9; font-size:1rem; margin:0 0 8px; }
+.site-footer .footer-contact-row { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin:34px 0 22px; }
+.site-footer .footer-contact-row a { display:inline-flex; gap:16px; align-items:center; color:#fff !important; font-size:1rem; text-decoration:none; overflow-wrap:anywhere; }
+.site-footer .footer-contact-row a:hover,.site-footer .footer-contact-row a:focus-visible { text-decoration:underline; }
+.site-footer .footer-icon { font-size:1.8rem; line-height:1; color:#fff; min-width:35px; text-align:center; }
+.site-footer .footer-credit { color:#d0dce6; text-align:center; font-size:.85rem; margin:25px 0 0; }
+@media(max-width:650px) { .site-footer { padding:38px 20px 22px !important; } .site-footer .footer-heading { gap:14px; } .site-footer .footer-heading h2 { font-size:1.6rem; } .site-footer .footer-contact-row { grid-template-columns:1fr; gap:22px; } }
