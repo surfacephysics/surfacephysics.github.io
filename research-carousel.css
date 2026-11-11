@@ -70,3 +70,36 @@
   .carousel-caption h2 { font-size: 1.15rem; }
   .carousel-caption p { font-size: .85rem; }
 }
+
+/* Full-width landscape research slideshow */
+.research-carousel {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  border-radius: 0;
+  overflow: hidden;
+}
+
+/* Fill the entire landscape area */
+.research-carousel .slide img {
+  width: 100%;
+  height: 580px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Remove headings and descriptions over images */
+.research-carousel .slide-caption,
+.research-carousel .slide-title,
+.research-carousel .slide-description,
+.research-carousel .carousel-caption {
+  display: none !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .research-carousel .slide img {
+    height: 320px;
+  }
+}
