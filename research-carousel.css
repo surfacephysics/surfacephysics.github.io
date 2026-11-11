@@ -103,3 +103,46 @@
     height: 320px;
   }
 }
+
+/* Full landscape research carousel */
+.research-carousel {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+/* Make every slide occupy the full width */
+.research-carousel .slide,
+.research-carousel .carousel-slide {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+/* Expand images to fill the landscape area */
+.research-carousel img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block;
+}
+
+/* Remove titles and captions */
+.research-carousel .slide-caption,
+.research-carousel .slide-title,
+.research-carousel .slide-description,
+.research-carousel .carousel-caption {
+    display: none !important;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .research-carousel .slide,
+    .research-carousel .carousel-slide {
+        height: 300px;
+    }
+}
